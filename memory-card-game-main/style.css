@@ -915,3 +915,161 @@ body {
     color: rgba(0, 0, 0, 0.9);
     font-weight: 600;
 }
+
+/* =================== Responsive Design =================== */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .game-play img {
+    width: 90%;
+  }
+
+  .game-play button {
+    font-size: 30px;
+    padding: 12px 40px;
+  }
+
+  .container .game {
+    width: 90%;
+    height: auto;
+  }
+
+  .game-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .game-header .score,
+  .game-header .chance-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .game-body ul {
+    justify-content: center;
+  }
+
+  .game-body ul li {
+    flex-basis: 30%;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .game-result {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+  .game-play img {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .game-play button {
+    font-size: 22px;
+    padding: 10px 30px;
+  }
+
+  .game-menu .nav .rank {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .game-menu .nav .ranking {
+    width: 90% !important;
+    right: 5%;
+  }
+
+  .game-menu .nav .profile {
+    right: 5%;
+    width: 90%;
+  }
+
+  .container .game {
+    width: 95%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .game-body ul li {
+    flex-basis: 45%;
+    margin: 1.5% 0;
+  }
+
+  .form .signin {
+    left: 10px;
+  }
+
+  .form h2 {
+    font-size: 24px;
+  }
+
+  .form .input-box input {
+    font-size: 16px;
+  }
+
+  .form .btn button {
+    font-size: 18px;
+  }
+
+  .game-result h2 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .game-result h2 span {
+    font-size: 30px;
+  }
+
+  .game-result .btn #score {
+    font-size: 24px;
+    padding: 8px 40px;
+  }
+
+  .game-result .btn .title {
+    font-size: 20px;
+  }
+
+  .game-result .btn i {
+    font-size: 30px;
+  }
+
+  .view img {
+    width: 50px;
+  }
+}
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+  .game-body ul li {
+    flex-basis: 100%;
+    margin: 2% 0;
+  }
+
+  .form .input-box input {
+    height: 45px;
+  }
+
+  .game-menu .developed h2 {
+    font-size: 18px;
+  }
+
+  .game-menu .logo img {
+    width: 90px;
+  }
+
+  .game-menu .nav .rank i,
+  .game-menu .nav .pr i {
+    font-size: 24px;
+  }
+
+  .game-menu .nav .rank p,
+  .game-menu .nav .pr h3 {
+    font-size: 16px;
+  }
+}
